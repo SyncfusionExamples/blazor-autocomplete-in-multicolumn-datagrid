@@ -1,14 +1,19 @@
-# blazor-autocomplete-in-multicolumn-data-grid
+# Blazor Autocomplete in multicolumn Data Grid
+
 Creation of AutoComplete component with multicolumn DateGrid in Blazor and display search result in multiple columns of data list.
 
-## Project pre-requisites
-Make sure that you have the compatible versions of Visual Studio Code and .NET Core SDK 3.1.2 in your machine before starting to work on this project.
+## Prerequisites
 
-## How to run this application?
-To run this application, you need to first clone the `blazor-file-upload-image-preview` repository and then open the project or solution file in Visual Studio 2019. 
+* Visual Studio 2022
 
-* Now, run the run the project Visual Studio and able to get the output in Browser.
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## See also
+
 * [Online examples](https://blazor.syncfusion.com)
 * [Documentation](https://blazor.syncfusion.com/documentation/introduction/)
