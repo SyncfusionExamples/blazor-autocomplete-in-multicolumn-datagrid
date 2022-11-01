@@ -1,6 +1,6 @@
 # Blazor Autocomplete in multicolumn Data Grid
 
-Creation of AutoComplete component with multicolumn DateGrid in Blazor and display search result in multiple columns of data list.
+Creation of AutoComplete component with Blazor multicolumn DataGrid and display search result in multiple columns of data list.
 
 ## Prerequisites
 
