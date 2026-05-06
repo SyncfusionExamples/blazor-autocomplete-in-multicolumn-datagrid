@@ -1,4 +1,4 @@
-# Blazor Autocomplete in multicolumn Data Grid
+# Blazor Autocomplete in multicolumn DataGrid
 
 This sample explains about how to create [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) component with Blazor multicolumn DataGrid and display search result in multiple columns of data list.
 
