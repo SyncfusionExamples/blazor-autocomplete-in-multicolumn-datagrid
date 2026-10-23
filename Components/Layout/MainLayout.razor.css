@@ -21,17 +21,12 @@ main {
     align-items: center;
 }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
+    .top-row ::deep a, .top-row .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
-        text-decoration: none;
     }
 
-    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
-        text-decoration: underline;
-    }
-
-    .top-row ::deep a:first-child {
+    .top-row a:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -45,7 +40,7 @@ main {
         justify-content: space-between;
     }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
+    .top-row a, .top-row .btn-link {
         margin-left: 0;
     }
 }
@@ -68,14 +63,27 @@ main {
         z-index: 1;
     }
 
-    .top-row.auth ::deep a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
-
-    .top-row, article {
+    .main > div {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
 }
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 1000;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
